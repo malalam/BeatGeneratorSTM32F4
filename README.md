@@ -8,4 +8,6 @@
 - Load the files onto STM32F4 Discovery Board using [Keil IDE](https://www.keil.com/demo/eval/arm.htm).
 - After loading, should see a signal that the board is now recording in the Keil IDE (note: can use the onboard button to reset timer and start recording again).
 - Shake the board for the desired beat for 8 seconds.
-- Board will immediately start playing the beat generated using built 
+- Board will immediately start playing the beat generated through the audio jack.
+- The generated 8 second beat will continue to replay until stopped using the onboard button. 
+- To generate a new beat, simply press the onboard button again and the timer will reset. 
